@@ -3,7 +3,6 @@ import boto3 and use the tool AwsCli to create EC2,S3,IAM,more.
 ---------------------------------------------------------------
 Automatically_create_VMs.py
 ---------------------------------------------------------------
-import boto3 and use the tool AwsCli to create EC2,S3,IAM,more.
 Before you run this script you should 
 install on you computer/vm : AWSCLI,
 Add your AWS access Key ID: Enter your AWS access key.
