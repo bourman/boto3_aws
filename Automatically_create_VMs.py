@@ -46,7 +46,7 @@ while True:
                         },
                     ]
                 )
-            print("Done, go check on AWS EC2")
+            print("\n----\nDone, go check on AWS EC2\n----\n")
         elif choice == 2:
             while True:
                 linux_count = input("Enter the number of Linux machines: ")
@@ -77,8 +77,19 @@ while True:
                         },
                     ]
                 )
-            print("Done, go check on AWS EC2")
+            print("\n----\nDone, go check on AWS EC2\n----\n")
         else:
             print("Invalid choice. Please enter a valid option.")
     else:
         print("Invalid input. Please enter a valid number for the choice.")
+    while True:
+        exit_choice = input("Do you want to exit? (yes/no): ")
+        if exit_choice.lower() == "yes":
+            break
+        elif exit_choice.lower() == "no":
+            break
+        else:
+            print("Invalid choice. Please enter 'yes' or 'no'.")
+    if exit_choice.lower() == "yes":
+        break
+print("Goodbye!")
