@@ -10,3 +10,5 @@ This key is generated when you create an IAM user with appropriate permissions i
 ----------------------------------------------------------------
 Then run the script on VSCODE, it will create how many VMS you want by enter a number, Windows/Linux 
 after you finish run the script go to AWS_Cloud and check the Instances you will see the VMS with number 👍
+![boto3_and_python](https://github.com/bourman/boto3_aws/assets/68653187/aff52199-49f3-4ecb-90d7-be5ffcb5ce66)
+
